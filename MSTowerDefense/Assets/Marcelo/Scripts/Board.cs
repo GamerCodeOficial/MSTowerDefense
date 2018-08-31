@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Board : MonoBehaviour {
 
+    public GameObject[] planos;
+
     public int hp;
 
     public int[,] grid = new int[20,20];
